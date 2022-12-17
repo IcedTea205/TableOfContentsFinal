@@ -1,0 +1,36 @@
+.content_mainDiv {
+    border: 1px solid lightgrey;
+}
+
+.content_mainDiv img {
+    width: 100%;
+}
+
+.content_mainDiv h5 , .content_mainDiv p {
+    margin: 20px;
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    animation: transitionIn 0.75s;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: black;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
